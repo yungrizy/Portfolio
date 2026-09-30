@@ -49,6 +49,7 @@ ul li::marker {
     color: #ff0000;
 }
 
-ol li {
-    color: #F1E9DB;
+ol li::marker {
+    color: #58fcec;
 }
+
