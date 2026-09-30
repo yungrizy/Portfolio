@@ -1,5 +1,5 @@
 body {
-    background-color: #150811;
+    background-color: #011638;
 }
 
 p {
@@ -47,4 +47,8 @@ ul li {
 
 ul li::marker {
     color: #ff0000;
+}
+
+ol li {
+    color: #F1E9DB;
 }
