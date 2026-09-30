@@ -1,29 +1,36 @@
-p{
-   color: #f9f9f9; 
+body {
+    background-color: #150811;
 }
-h1{
+
+p {
+    color: #f9f9f9;
+}
+
+h1 {
     color: #4026c2;
 }
-h2{
+
+h2 {
     color: #fafaff;
 }
-h3{
+
+h3 {
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     padding: 15px;
     margin: 20px;
-   
 }
-img{
+
+img {
     width: 300px;
     height: auto;
 }
-nav{
+
+nav {
     background-color: #fdfffd;
     padding: 10px;
 }
-body {
-    background-color: #150811;
-}
-    
 
+li {
+    color: #f9f9f9;
+}
