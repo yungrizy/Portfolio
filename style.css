@@ -24,6 +24,26 @@ h3 {
 img {
     width: 300px;
     height: auto;
+    
+}
+
+
+.education-list li {
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.education-list li p {
+    margin-bottom: 12px;
+}
+
+.school-logo {
+    display: block;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin: 10px 0;
 }
 
 nav {
@@ -38,17 +58,17 @@ li {
 }
 
 ul{
-    color: #171ad9;
+    color: #E8D33F;
 
 }
 
 
 ul li {
-    color: #58fcec;
+    color: #ffffff;
 }
 
 ul li::marker {
-    color: #ff0000;
+    color: #E8D33F;
 }
 
 ol li::marker {
@@ -56,7 +76,7 @@ ol li::marker {
 }
 
 body{
-    background-image: url('https://images.unsplash.com/photo-1491466424936-e304919aada7?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+    background-image: url('https://images.unsplash.com/photo-1581362716668-90cdec6b4882?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,8 +108,4 @@ button{
     margin-top: 20px;
 }
 
-.nav-toggle {
-    text-decoration: none;
-    color: #f9f9f9;
-}
 
