@@ -1,3 +1,40 @@
+//Strings
+let greeting = "Welcome to my portfolio website!"
+let name = "Ian Moses Kitavi"
+let profession = "Systems Integration Specialist"
+console.log(name)
+console.log(profession)
+console.log(greeting)
+
+//Boolean
+let isStudent = true
+console.log(isStudent)
+let isWorking = true
+console.log(isWorking)
+
+//Objects
+
+let person = {
+    name: "Ian Moses Kitavi",
+    profession: "Systems Integration Specialist",
+    isStudent: true,
+    isWorking: true
+}
+
+console.log(person)
+
+//Functions
+function greet() {
+    console.log("Hello, " + name + "!")
+}
+greet()
+
+//Arrays
+const skills = ["Systems Integration", "Technical Support", "Problem Solving", "Communication and Collaboration"]
+console.log(skills)
+const projects = ["Merchants Integration & Onboarding", "Wallet & Payment API Integration", "M-Pesa Daraja API Integration", "API Testing & UAT Automation"]
+console.log(projects)
+
 let nameElement = document.getElementById("name")
 let greetButton = document.getElementById("greetButton")
 
