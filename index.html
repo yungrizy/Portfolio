@@ -89,18 +89,26 @@
     </div>
 </section>
 
-        <section id="projects">
-            <!-- Projects Section -->
-            <div class="card">
-            <h2>Projects</h2>
-            <ul>
-                <li>Project 1: Merchant Integration & Onboarding.</li>
-                <li>Project 2: Wallet & Payment API Integration.</li>
-                <li>Project 3: M-Pesa Daraja API Integration.</li>
-                <li>Project 4: API Testing & UAT Automation.</li>
-            </ul>
-            </div>
-        </section>
+<section id="projects">
+    <div class="card">
+        <h2>Projects</h2>
+
+        <form id="projectForm">
+            <input
+                id="projectInput"
+                type="text"
+                placeholder="Project Name"
+            >
+            <button type="submit">Add Project</button>
+        </form>
+
+        <p id="projectError" class="error"></p>
+
+        <ul id="projectList"></ul>
+
+        <p id="emptyMessage">No projects added yet</p>
+    </div>
+</section>
         <section id="contact">
             <div class="card">
             <!-- Contact Section -->
